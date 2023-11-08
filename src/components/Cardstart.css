@@ -36,10 +36,14 @@ border-top-right-radius: 8rem;
 padding-top: 70px;
 padding-bottom: 40px;
 }
-.container-start-contenido:hover{
-  background-color: rgba(0, 0, 0, 0.805);
-  border: #fff;
+
+.container-card:hover { 
+  .container-start-contenido {
+    background-color: rgba(0, 0, 0, 0.805);
+    border: #fff;
+  }
 }
+
 
   .container-card-start {
     padding: 30px;

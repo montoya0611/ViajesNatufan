@@ -16,6 +16,7 @@ function Navbar() {
   return (
     <nav className="container-navbar">
       <img className="icono" src="" alt="fotoinicio" />
+      <div className="menu">
       <Link to="#" className="titulo-navbar">
         Inicio
       </Link>
@@ -44,6 +45,7 @@ function Navbar() {
       <Link to="/Nosotros" className="titulo-navbar">
         Galeria
       </Link>
+      </div>      
     </nav>
   );
 }
