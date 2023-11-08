@@ -1,0 +1,31 @@
+.container-navbar {
+  display: flex;
+  padding: 10px;
+  background: orange;
+  justify-content: center;
+  gap: 50px;
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.titulo-navbar {
+  font-family: Carter One;
+  color: black;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.titulo-navbar-destinos {
+  text-decoration: none;
+  color: black;
+  background: rgb(253, 182, 106);
+  padding: 10px;
+}
+
+.icono {
+  display: flex;
+}

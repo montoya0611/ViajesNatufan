@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+.container-card-lugar {
+  width: 340px;
+  height: 420px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 10px 20px 20px -2px rgba(0.2, 0, 0, 0.5);
+}
+.container-card-lugar:hover {
+  transform: translate(10px, -10px);
+}
+
+.photo-card-lugares {
+  width: 100%;
+  height: 280px;
+  background-size: cover;
+}
+.button-planes {
+  background-image: linear-gradient(60deg, #f2be21 0%, #ff962a 100%);
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: carter one;
+  box-shadow: 10px 20px 20px -2px rgba(0.2, 0, 0, 0.5);
+}
+.button-planes:hover {
+  background-image: linear-gradient(60deg, #f22121 0%, #ffb42a 100%);
+}
+.title-card-lugar {
+  color: #1d202b;
+  font-family: carter one;
+  font-size: 40px;
+  margin-bottom: 0px;
+  background: white;
+  border-radius: 8px 8px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-card-lugares {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Crea tres columnas de igual ancho */
+  grid-gap: 20px; /* Espacio entre las columnas */
+  grid-row-gap: 50px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}

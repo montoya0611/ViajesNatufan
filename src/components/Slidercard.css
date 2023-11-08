@@ -1,0 +1,9 @@
+.container-lugar{
+border-radius: 8px;
+height: 120px;
+}
+.destino{
+    width: 250px;
+    text-align: center;
+    font-size: 40px;   
+}

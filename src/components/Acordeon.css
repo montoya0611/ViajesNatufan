@@ -1,0 +1,35 @@
+.acordeon{
+    padding: 5em;
+    max-width: 120em;
+}
+.bloque{
+    margin: 0 0 1em;
+    
+}
+.maicol{
+    display: flex;
+    padding: 2px;
+    font-size: 25px;
+    font-family: "Carter One";
+    display: flex;
+    justify-content: space-between;
+}
+.contenido{
+    padding: 0em;
+    height: 0;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.maicol:hover{
+    background: rgb(217, 217, 214);
+    padding: 5px;
+}
+.acordeon .bloque.activo .contenido{
+   height: 4em; 
+}
+
+.icono-desplegar{
+width: 20px;
+display: flex;
+gap: 100px;
+}

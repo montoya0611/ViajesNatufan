@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Carme&family=Montserrat:wght@100&display=swap');
+
+.container-card-testimonio {
+   width: 650px;
+height: 170px;
+background: #ff920d;
+padding-top: 10px;
+padding-bottom: 25px;
+display: flex;
+justify-content: center;
+margin-left: 400px;
+
+box-shadow: 15px 15px 10px -5px rgba(0, 0, 0, 0.5);
+
+  }
+.photo-person{
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.photo-person{
+margin-top: -15px;
+}
+.text-cliente{
+font-family:"Montserrat" ;
+color: rgb(255, 245, 245);
+text-align: center;
+}
+.text-nombre-cliente{
+font-family: "Montserrat";
+font-size: 20px;
+margin-top: -15px;
+text-align: center;
+font-weight: bold;
+color: rgb(255, 245, 245);
+
+}
+.container-imagen-testimonio{
+display: flex;
+}
+.icono-coma{
+border-radius: 10px;
+}
+.text-testimonio{
+    width: 400px;
+padding: 10px;
+font-family: 'Montserrat', sans-serif;;
+font-size: 14px;
+text-align: justify;
+color: rgb(255, 255, 255);
+margin-top: -15px;
+}

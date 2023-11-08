@@ -1,0 +1,47 @@
+.title {
+  color: #000;
+  text-align: center;
+  font-family: "Carter One";
+  font-size: 60px;
+  font-weight: 600px;
+}
+
+.subtitle {
+  color: rgba(46, 54, 73, 0.6);
+  text-align: center;
+  align-items: center;
+  font-family: "Carter One";
+  font-size: 32px;
+  font-style: normal;
+  line-height: normal;
+  margin-top: -50px;
+}
+.Button {
+  background: #f28705;
+  font-family: "carter one";
+  border-radius: 8px;
+  font-size: 30px;
+  width: 190px;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #000;
+  margin-left: 620px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container-carousel3d {
+  margin-bottom: 120px;
+}
+.container-logos {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.container-global-promo {
+  width: 100%;
+  background: rgb(242, 242, 242);
+  margin-bottom: 80px;
+  margin-top: 60px;
+  padding-bottom: 40px;
+  padding-top: 1px;
+}
