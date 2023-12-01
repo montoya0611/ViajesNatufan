@@ -3,11 +3,13 @@ import "./Amazonas.css";
 import { PlanesSurAmerica } from "../../components/Planes";
 import Footer from "../../components/Footer";
 import { CardPromoCartagena } from "../../components/Cardpromo";
-import Amazonasvv from "../../imagenes/Amazonasvv.gif";
+import SurAmericav from "../../imagenes/SurAmerica.gif";
+import Navbar from "../../components/navbar";
 function SurAmerica() {
   return (
     <div className="container-amazonas">
-      <img src={Amazonasvv} type="video/mp4" className="Videos" />
+      <Navbar />
+      <img src={SurAmericav} type="video/mp4" className="Videos" />
       <div className="container-tittle-global">
         <h5 className="text-global">Sur America</h5>
         <h5 className="subtitle-global">con natufan,mas cerca de tu destino</h5>

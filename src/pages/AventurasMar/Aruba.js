@@ -3,9 +3,13 @@ import "./SanAndres.css";
 import { ImagenesAruba } from "../../components/ImagenesBloque";
 import { CardPromoCartagena } from "../../components/Cardpromo";
 import Footer from "../../components/Footer";
+import Arubav from "../../imagenes/Aruba.gif";
+import Navbar from "../../components/navbar";
 function Aruba() {
   return (
     <div>
+      <Navbar />
+      <img src={Arubav} type="video/mp4" className="Videos" />
       <img src="" type="video/mp4" className="VideosMar" />
       <div className="container-tittle-global-mar">
         <h5 className="text-global-mar">Aruba</h5>

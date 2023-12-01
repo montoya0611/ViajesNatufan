@@ -4,9 +4,11 @@ import { PlanesCañoCristales } from "../../components/Planes";
 import Footer from "../../components/Footer";
 import { CardPromoCartagena } from "../../components/Cardpromo";
 import Cristalv from "../../imagenes/Cristal.gif";
+import Navbar from "../../components/navbar";
 function Boyaca() {
   return (
     <div className="container-amazonas">
+      <Navbar />
       <img src={Cristalv} type="video/mp4" className="Videos" />
       <div className="container-tittle-global">
         <h5 className="text-global">Caño Cristales</h5>

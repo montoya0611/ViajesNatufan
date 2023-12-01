@@ -3,9 +3,12 @@ import "./SanAndres.css";
 import { ImagenesCapurgana } from "../../components/ImagenesBloque";
 import { CardPromoCartagena } from "../../components/Cardpromo";
 import Footer from "../../components/Footer";
+import Navbar from "../../components/navbar";
 function SanAndres() {
   return (
     <div>
+      <Navbar />
+
       <img src="" type="video/mp4" className="VideosMar" />
       <div className="container-tittle-global-mar">
         <h5 className="text-global-mar">Capurgana</h5>

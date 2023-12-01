@@ -43,11 +43,11 @@
   margin-top: 90px;
 }
 .linea-bottom {
-  margin-left: 590px;
   width: 850px;
   padding: 4px;
   background: #f28705;
   border: 0;
+  justify-content: space-between;
 }
 .container-global-destinosInternacionales {
   width: 100%;

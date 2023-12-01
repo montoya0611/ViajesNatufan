@@ -639,42 +639,16 @@ export function PlanesEuropa() {
   const Europa = [
     {
       imagen:
-        "https://images.pexels.com/photos/13209625/pexels-photo-13209625.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tittle: "Caño Cristales Unico",
-      salidas: "8 de noviembre 2023 / 30 enero 2024 / 6 de noviembre 2023",
-      lugares: "Parque de cartagena / Isla fuerte / Isla guarne",
-      tarifa: "$11.900.000",
-      documento: "/documents/Colombia (1).pdf",
+        "https://images.pexels.com/photos/699466/pexels-photo-699466.jpeg?auto=compress&cs=tinysrgb&w=600",
+      tittle: "Eco Europa Mágica",
+      salidas: "8 de Mayo",
+      lugares: "Francia - España - Suiza - Austria",
+      tarifa: "2.126USD",
+      documento:
+        "https://drive.google.com/file/d/1YWKMn2Q2eFNMaPUW7F1m_Md8Vv3WSC34/view?usp=sharing",
       link: crearLinkWhatsapp(
-        "Hola Natufan, requiero mas información acerca de los planes de Amazonas🌏🌴⛅"
+        "Hola Natufan, requiero mas información acerca del plan ECO Europa Magica 🌏"
       ),
-    },
-    {
-      imagen:
-        "https://images.pexels.com/photos/2739664/pexels-photo-2739664.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tittle: "Caño Cristales Unico",
-      salidas: "8 de noviembre 2023 / 30 enero 2024 / 6 de noviembre 2023",
-      lugares: "Parque de cartagena / Isla fuerte / Isla guarne",
-      tarifa: "$11.900.000",
-      documento: "/documents/Colombia (1).pdf",
-    },
-    {
-      imagen:
-        "https://images.pexels.com/photos/2739664/pexels-photo-2739664.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tittle: "Amazonas Unico",
-      salidas: "8 de noviembre 2023 / 30 enero 2024 / 6 de noviembre 2023",
-      lugares: "Parque de cartagena / Isla fuerte / Isla guarne",
-      tarifa: "$11.900.000",
-      documento: "/documents/Colombia (1).pdf",
-    },
-    {
-      imagen:
-        "https://images.pexels.com/photos/2739664/pexels-photo-2739664.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tittle: "Amazonas Unico",
-      salidas: "8 de noviembre 2023 / 30 enero 2024 / 6 de noviembre 2023",
-      lugares: "Parque de cartagena / Isla fuerte / Isla guarne",
-      tarifa: "$11.900.000",
-      documento: "/documents/Colombia (1).pdf",
     },
   ];
   return (
@@ -704,42 +678,16 @@ export function PlanesAsia() {
   const Asia = [
     {
       imagen:
-        "https://images.pexels.com/photos/13209625/pexels-photo-13209625.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tittle: "Caño Cristales Unico",
-      salidas: "8 de noviembre 2023 / 30 enero 2024 / 6 de noviembre 2023",
-      lugares: "Parque de cartagena / Isla fuerte / Isla guarne",
-      tarifa: "$11.900.000",
-      documento: "/documents/Colombia (1).pdf",
+        "https://images.pexels.com/photos/248082/pexels-photo-248082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      tittle: "Bajo el sol sudeste Asiático",
+      salidas: "8 de marzo",
+      lugares: "Vietnam-Camboya-Singapur-Malasia-Indonesia",
+      tarifa: "4.280USD",
+      documento:
+        "https://drive.google.com/file/d/1YDNx4PfNh7NXHwnJT8qIIQR_RfQ371B6/view?usp=sharing",
       link: crearLinkWhatsapp(
-        "Hola Natufan, requiero mas información acerca de los planes de Amazonas🌏🌴⛅"
+        "Hola Natufan, requiero mas información acerca del plan bajo el sol sudeste asiatico🌏🌴⛅"
       ),
-    },
-    {
-      imagen:
-        "https://images.pexels.com/photos/2739664/pexels-photo-2739664.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tittle: "Caño Cristales Unico",
-      salidas: "8 de noviembre 2023 / 30 enero 2024 / 6 de noviembre 2023",
-      lugares: "Parque de cartagena / Isla fuerte / Isla guarne",
-      tarifa: "$11.900.000",
-      documento: "/documents/Colombia (1).pdf",
-    },
-    {
-      imagen:
-        "https://images.pexels.com/photos/2739664/pexels-photo-2739664.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tittle: "Amazonas Unico",
-      salidas: "8 de noviembre 2023 / 30 enero 2024 / 6 de noviembre 2023",
-      lugares: "Parque de cartagena / Isla fuerte / Isla guarne",
-      tarifa: "$11.900.000",
-      documento: "/documents/Colombia (1).pdf",
-    },
-    {
-      imagen:
-        "https://images.pexels.com/photos/2739664/pexels-photo-2739664.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tittle: "Amazonas Unico",
-      salidas: "8 de noviembre 2023 / 30 enero 2024 / 6 de noviembre 2023",
-      lugares: "Parque de cartagena / Isla fuerte / Isla guarne",
-      tarifa: "$11.900.000",
-      documento: "/documents/Colombia (1).pdf",
     },
   ];
   return (

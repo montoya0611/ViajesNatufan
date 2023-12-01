@@ -3,11 +3,13 @@ import "./Amazonas.css";
 import { PlanesDesierto } from "../../components/Planes";
 import Footer from "../../components/Footer";
 import { CardPromoCartagena } from "../../components/Cardpromo";
+import Navbar from "../../components/navbar";
 
 function DesiertoTatacoa() {
   return (
     <div>
       <div className="container-amazonas">
+        <Navbar />
         <div className="container-tittle-global">
           <h5 className="text-global">Desierto Tatacoa</h5>
           <h5 className="subtitle-global">

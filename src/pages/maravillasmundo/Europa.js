@@ -3,11 +3,13 @@ import "./Amazonas.css";
 import { PlanesEuropa } from "../../components/Planes";
 import Footer from "../../components/Footer";
 import { CardPromoCartagena } from "../../components/Cardpromo";
-import Amazonasvv from "../../imagenes/Amazonasvv.gif";
+import Europav from "../../imagenes/Europa.gif";
+import Navbar from "../../components/navbar";
 function Europa() {
   return (
     <div className="container-amazonas">
-      <img src={Amazonasvv} type="video/mp4" className="Videos" />
+      <Navbar />
+      <img src={Europav} type="video/mp4" className="Videos" />
       <div className="container-tittle-global">
         <h5 className="text-global">Europa</h5>
         <h5 className="subtitle-global">con natufan,mas cerca de tu destino</h5>

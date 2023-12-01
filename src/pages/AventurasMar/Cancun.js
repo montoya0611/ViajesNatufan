@@ -3,9 +3,13 @@ import "./SanAndres.css";
 import { ImagenesCancun } from "../../components/ImagenesBloque";
 import { CardPromoCartagena } from "../../components/Cardpromo";
 import Footer from "../../components/Footer";
+import Cancunv from "../../imagenes/Cancun.gif";
+import Navbar from "../../components/navbar";
 function Cancun() {
   return (
     <div>
+      <Navbar />
+      <img src={Cancunv} type="video/mp4" className="Videos" />
       <img src="" type="video/mp4" className="VideosMar" />
       <div className="container-tittle-global-mar">
         <h5 className="text-global-mar">Cancún</h5>

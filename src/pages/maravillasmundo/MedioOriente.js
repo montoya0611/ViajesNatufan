@@ -3,11 +3,14 @@ import "./Amazonas.css";
 import { PlanesMedioOriente } from "../../components/Planes";
 import Footer from "../../components/Footer";
 import { CardPromoCartagena } from "../../components/Cardpromo";
-import Amazonasvv from "../../imagenes/Amazonasvv.gif";
+import MedioOrientev from "../../imagenes/MedioOriente.gif";
+import Navbar from "../../components/navbar";
+
 function MedioOriente() {
   return (
     <div className="container-amazonas">
-      <img src={Amazonasvv} type="video/mp4" className="Videos" />
+      <Navbar />
+      <img src={MedioOrientev} type="video/mp4" className="Videos" />
       <div className="container-tittle-global">
         <h5 className="text-global">Medio Oriente</h5>
         <h5 className="subtitle-global">con natufan,mas cerca de tu destino</h5>

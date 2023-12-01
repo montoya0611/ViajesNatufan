@@ -4,9 +4,11 @@ import { PlanesGuajira } from "../../components/Planes";
 import Footer from "../../components/Footer";
 import { CardPromoCartagena } from "../../components/Cardpromo";
 import Guajirav from "../../imagenes/Guajirav.gif";
+import Navbar from "../../components/navbar";
 function Guajira() {
   return (
     <div className="container-amazonas">
+      <Navbar />
       <img src={Guajirav} type="video/mp4" className="Videos" />
       <div className="container-tittle-global">
         <h5 className="text-global">Guajira</h5>

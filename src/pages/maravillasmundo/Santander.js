@@ -4,10 +4,12 @@ import { PlanesSantander } from "../../components/Planes";
 import Footer from "../../components/Footer";
 import { CardPromoCartagena } from "../../components/Cardpromo";
 import Santanderv from "../../imagenes/Santander.gif";
+import Navbar from "../../components/navbar";
 
 function Santander() {
   return (
     <div className="container-amazonas">
+      <Navbar />
       <img src={Santanderv} type="video/mp4" className="Videos" />
       <div className="container-tittle-global">
         <h5 className="text-global">Santander</h5>

@@ -3,11 +3,14 @@ import "./Amazonas.css";
 import { PlanesCentroAmerica } from "../../components/Planes";
 import Footer from "../../components/Footer";
 import { CardPromoCartagena } from "../../components/Cardpromo";
-import Amazonasvv from "../../imagenes/Amazonasvv.gif";
+import CentroAmericav from "../../imagenes/CentroAmerica.gif";
+import Navbar from "../../components/navbar";
+
 function CentroAmerica() {
   return (
     <div className="container-amazonas">
-      <img src={Amazonasvv} type="video/mp4" className="Videos" />
+      <Navbar />
+      <img src={CentroAmericav} type="video/mp4" className="Videos" />
       <div className="container-tittle-global">
         <h5 className="text-global">Centro America</h5>
         <h5 className="subtitle-global">con natufan,mas cerca de tu destino</h5>

@@ -1,20 +1,32 @@
+.container-titulo {
+  text-align: center;
+  justify-content: center;
+}
 .title {
   color: #000;
-  text-align: center;
   font-family: "Carter One";
   font-size: 60px;
-  font-weight: 600px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .container-titulo {
+    text-align: center;
+  }
+  .title {
+    font-size: 45px;
+  }
+  .subtitle {
+    font-size: 23px;
+    margin-top: -40px;
+  }
 }
 
 .subtitle {
   color: rgba(46, 54, 73, 0.6);
-  text-align: center;
-  align-items: center;
   font-family: "Carter One";
   font-size: 32px;
-  font-style: normal;
-  line-height: normal;
-  margin-top: -50px;
+  text-align: center;
 }
 .Button {
   background: #f28705;

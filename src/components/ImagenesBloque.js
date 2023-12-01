@@ -8,15 +8,15 @@ function Imagenes({ imagenpromo, linkimagen }) {
 
   const cambiarTamañoImagen = () => {
     if (anchoImagen === 350 && altoImagen === 350) {
-      setAnchoImagen(500);
-      setAltoImagen(500);
+      setAnchoImagen(450);
+      setAltoImagen(450);
     } else {
       setAnchoImagen(350);
       setAltoImagen(350);
     }
   };
   return (
-    <div className="container-imagenes-bloque">
+    <div className="container-imagenes">
       <img
         className="imagen-promocion"
         src={imagenpromo}

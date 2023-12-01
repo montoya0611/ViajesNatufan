@@ -4,10 +4,12 @@ import { PlanesTolima } from "../../components/Planes";
 import Footer from "../../components/Footer";
 import { CardPromoCartagena } from "../../components/Cardpromo";
 import Tolimav from "../../imagenes/Tolima.gif";
+import Navbar from "../../components/navbar";
 
 function Tolima() {
   return (
     <div className="container-amazonas">
+      <Navbar />
       <img src={Tolimav} type="video/mp4" className="Videos" />
       <div className="container-tittle-global">
         <h5 className="text-global">Tolima</h5>

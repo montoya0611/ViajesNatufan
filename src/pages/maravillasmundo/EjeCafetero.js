@@ -4,9 +4,12 @@ import { PlanesEjeCafetero } from "../../components/Planes";
 import Footer from "../../components/Footer";
 import { CardPromoCartagena } from "../../components/Cardpromo";
 import EjeCafeteroV from "../../imagenes/EjeCafetero.gif";
+import Navbar from "../../components/navbar";
+
 function Boyaca() {
   return (
     <div className="container-amazonas">
+      <Navbar />
       <img src={EjeCafeteroV} type="video/mp4" className="Videos" />
       <div className="container-tittle-global">
         <h5 className="text-global">Eje Cafetero</h5>

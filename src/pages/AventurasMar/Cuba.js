@@ -3,9 +3,13 @@ import "./SanAndres.css";
 import { ImagenesCuba } from "../../components/ImagenesBloque";
 import { CardPromoCartagena } from "../../components/Cardpromo";
 import Footer from "../../components/Footer";
+import Cubav from "../../imagenes/Cuba.gif";
+import Navbar from "../../components/navbar";
 function Cuba() {
   return (
     <div>
+      <Navbar />
+      <img src={Cubav} type="video/mp4" className="Videos" />
       <img src="" type="video/mp4" className="VideosMar" />
       <div className="container-tittle-global-mar">
         <h5 className="text-global-mar">Cuba</h5>

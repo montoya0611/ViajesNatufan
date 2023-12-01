@@ -13,15 +13,15 @@ import Navbar from "../components/navbar";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Carousel />
-
       <hr className="linea-top" />
-      <h3 className="title">ESTAS AVENTURAS ESPERAN POR TI</h3>
-      <h4 className="subtitle">
-        Disfruta de todas estas maravillas al lado de FamiliaNatufan
-      </h4>
+      <div className="container-titulo">
+        <h3 className="title">ESTAS AVENTURAS ESPERAN POR TI</h3>
+        <h4 className="subtitle">
+          Disfruta de todas estas maravillas al lado de FamiliaNatufan
+        </h4>
+      </div>
       <hr className="linea-bottom" />
+
       <Cardstartcon />
 
       <div className="container-global-promo">

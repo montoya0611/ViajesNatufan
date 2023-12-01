@@ -3,9 +3,13 @@ import "./SanAndres.css";
 import { ImagenesCartagena } from "../../components/ImagenesBloque";
 import { CardPromoCartagena } from "../../components/Cardpromo";
 import Footer from "../../components/Footer";
+import Cartagenav from "../../imagenes/Cartagena.gif";
+import Navbar from "../../components/navbar";
 function Cartagena() {
   return (
     <div>
+      <Navbar />
+      <img src={Cartagenav} type="video/mp4" className="Videos" />
       <img src="" type="video/mp4" className="VideosMar" />
       <div className="container-tittle-global-mar">
         <h5 className="text-global-mar">Cartagena</h5>

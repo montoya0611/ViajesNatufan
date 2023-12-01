@@ -4,10 +4,12 @@ import { PlanesLlanos } from "../../components/Planes";
 import Footer from "../../components/Footer";
 import { CardPromoCartagena } from "../../components/Cardpromo";
 import Llanosv from "../../imagenes/Llanos.gif";
+import Navbar from "../../components/navbar";
 
 function Tolima() {
   return (
     <div className="container-amazonas">
+      <Navbar />
       <img src={Llanosv} type="video/mp4" className="Videos" />
       <div className="container-tittle-global">
         <h5 className="text-global">Llanos Orientales</h5>

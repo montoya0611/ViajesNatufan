@@ -31,7 +31,7 @@ function Footer() {
               </h7>
             </div>
 
-            <div className="container-tres">
+            <div className="container-uno">
               <img className="icono-uno" src={asesor} alt="fotoinicio" />
               <h7 className="texto-uno">
                 Te brindamos la mejor experiencia y servicio
