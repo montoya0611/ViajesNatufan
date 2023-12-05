@@ -13,15 +13,14 @@ import Navbar from "../components/navbar";
 export default function Home() {
   return (
     <>
-      <hr className="linea-top" />
       <div className="container-titulo">
-        <h3 className="title">ESTAS AVENTURAS ESPERAN POR TI</h3>
+        <hr className="linea-top" />
+        <h3 className="title-principal">ESTAS AVENTURAS ESPERAN POR TI</h3>
         <h4 className="subtitle">
           Disfruta de todas estas maravillas al lado de FamiliaNatufan
         </h4>
+        <hr className="linea-bottom" />
       </div>
-      <hr className="linea-bottom" />
-
       <Cardstartcon />
 
       <div className="container-global-promo">
@@ -34,12 +33,15 @@ export default function Home() {
         <CardpromoStart />
       </div>
 
-      <h3 className="title">EXPERIENCIAS NATUFAN</h3>
-      <h4 className="subtitle">
-        Mira un poco de los recuerdos que nos dejaron nuestras aventuras. No
-        dejes pasar mas el tiempo y ven con la familiaNatufan a vivir tus
-        propias experiencias.
-      </h4>
+      <div className="container-experiencias">
+        <h3 className="title">EXPERIENCIAS NATUFAN</h3>
+        <h4 className="subtitle">
+          Mira un poco de los recuerdos que nos dejaron nuestras aventuras. No
+          dejes pasar mas el tiempo y ven con la familiaNatufan a vivir tus
+          propias experiencias.
+        </h4>
+      </div>
+
       <div className="container-carousel3d">
         <Example />
       </div>

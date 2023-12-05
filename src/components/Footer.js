@@ -69,8 +69,7 @@ function Footer() {
             <h5 className="tittle-uno">Donde estamos ubicados</h5>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.15121257097!2d-75.57175819999999!3d6.243794200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429e664eedecd%3A0x5546869939d516ac!2sViajes%20Natufan!5e0!3m2!1ses-419!2sco!4v1698944780246!5m2!1ses-419!2sco"
-              width="450"
-              height="250"
+              className="mapa"
             ></iframe>
           </ul>
         </div>

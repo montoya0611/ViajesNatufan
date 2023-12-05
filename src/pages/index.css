@@ -1,6 +1,8 @@
-.container-titulo {
+.title-principal {
+  color: #000;
+  font-family: "Carter One";
+  font-size: 60px;
   text-align: center;
-  justify-content: center;
 }
 .title {
   color: #000;
@@ -9,20 +11,13 @@
   text-align: center;
 }
 
-@media (max-width: 1024px) {
-  .container-titulo {
-    text-align: center;
-  }
-  .title {
-    font-size: 45px;
-  }
-  .subtitle {
-    font-size: 23px;
-    margin-top: -40px;
-  }
-}
-
 .subtitle {
+  color: rgba(46, 54, 73, 0.6);
+  font-family: "Carter One";
+  font-size: 32px;
+  text-align: center;
+}
+.subtitle-experiencias {
   color: rgba(46, 54, 73, 0.6);
   font-family: "Carter One";
   font-size: 32px;
@@ -52,8 +47,53 @@
 .container-global-promo {
   width: 100%;
   background: rgb(242, 242, 242);
-  margin-bottom: 80px;
   margin-top: 60px;
   padding-bottom: 40px;
   padding-top: 1px;
+}
+
+@media (max-width: 1024px) {
+  .container-titulo {
+    justify-content: center;
+  }
+  .title-principal {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 20px;
+    margin-top: -40px;
+  }
+  .subtitle-experiencias {
+    font-size: 20px;
+    margin-top: -20px;
+  }
+  .container-global-promo {
+    width: 100%;
+    background: rgb(242, 242, 242);
+    margin-top: 60px;
+    padding-bottom: 40px;
+    padding-top: 1px;
+  }
+}
+@media (max-width: 768px) {
+  .title-principal {
+    margin-left: 30px;
+    text-align: center;
+  }
+  .subtitle {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -40px;
+  }
+  .subtitle-experiencias {
+    font-size: 20px;
+    margin-top: -20px;
+  }
+  .container-global-promo {
+    background: rgb(242, 242, 242);
+    width: 135%;
+  }
+  .container-carousel3d {
+    margin-left: 200px;
+  }
 }
