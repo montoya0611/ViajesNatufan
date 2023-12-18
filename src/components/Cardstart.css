@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
 .container-card-inicio {
+  flex-wrap: wrap;
   width: 420px;
   height: 420px;
   flex-shrink: 0;
@@ -36,7 +37,8 @@
 }
 .container-card-principal {
   display: flex;
-  gap: 30px;
+  margin-top: 60px;
+  gap: 70px;
   justify-content: center;
 }
 
@@ -65,6 +67,7 @@
     gap: 15px;
     justify-content: center;
     margin-top: 40px;
+    flex-wrap: wrap;
   }
   .titulo-card-start {
     margin-left: 12px;
@@ -80,14 +83,7 @@
   }
 }
 @media (max-width: 768px) {
-  .container-card-principal {
-    justify-content: center;
-    margin-left: 210px;
-  }
   .container-experiencias {
     justify-content: center;
-    width: 130%;
-  }
-  .container-titulo {
   }
 }

@@ -2,10 +2,11 @@
 
 /* inicio tarjetas promo*/
 .container-cardpromo {
-  width: 250px;
+  width: 200px;
   height: 480px;
   border-radius: 8px;
   background: #1d202b;
+  position: relative;
 }
 .photo-promo {
   width: 100%;
@@ -67,8 +68,10 @@
 }
 .container-promo {
   display: flex;
+  margin-top: 70px;
+  gap: 40px;
+  overflow: scroll;
   justify-content: center;
-  grid-gap: 20px;
 }
 /* fin tarjetas promo*/
 
@@ -82,13 +85,7 @@
     width: 220px;
     height: 400px;
   }
-  .container-promo {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 4fr;
-    justify-content: center;
-    grid-gap: 20px;
-    margin-left: 30px;
-  }
+
   .photo-promo {
     height: 180px;
   }
@@ -116,10 +113,7 @@
   .date-promo {
     font-size: 15px;
   }
-  .container-promo {
-    grid-gap: 20px;
-    margin-top: 60px;
-  }
+
   /* fin tarjetas promo*/
 
   .container-promo-destinos {
@@ -129,15 +123,42 @@
 }
 @media (max-width: 768px) {
   .button-buy {
-    width: 110px;
+    width: 100px;
     margin-left: 90px;
-    font-size: 17px;
+    font-size: 15px;
+    padding-top: 4px;
   }
   .day-promo {
     margin-left: 130px;
     padding-right: 10px;
   }
   .button-buy {
-    margin-left: 110px;
+    margin-left: 109px;
+  }
+  .container-promo-destinos {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container-cardpromo {
+    width: 200px;
+    height: 20pm 0px;
+  }
+  .button-buy {
+    width: 100px;
+    margin-left: 90px;
+    font-size: 15px;
+    padding-top: 4px;
+  }
+  .day-promo {
+    margin-left: 130px;
+    padding-right: 10px;
+  }
+  .button-buy {
+    margin-left: 109px;
+  }
+  .container-promo-destinos {
+    gap: 10px;
   }
 }

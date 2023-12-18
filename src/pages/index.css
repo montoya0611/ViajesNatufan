@@ -75,15 +75,20 @@
     padding-top: 1px;
   }
 }
+
 @media (max-width: 768px) {
   .title-principal {
+    font-size: 35px;
     margin-left: 30px;
     text-align: center;
   }
+  .title {
+    font-size: 40px;
+  }
   .subtitle {
     text-align: center;
-    font-size: 20px;
-    margin-top: -40px;
+    font-size: 15px;
+    margin-top: -20px;
   }
   .subtitle-experiencias {
     font-size: 20px;
@@ -91,9 +96,9 @@
   }
   .container-global-promo {
     background: rgb(242, 242, 242);
-    width: 135%;
+    width: 100%;
   }
   .container-carousel3d {
-    margin-left: 200px;
+    margin-left: 10px;
   }
 }

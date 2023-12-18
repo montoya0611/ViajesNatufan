@@ -2,6 +2,7 @@
 .container-card-lugar {
   width: 340px;
   height: 420px;
+  margin-bottom: 40px;
   background: #ffffff;
   text-align: center;
   border-radius: 8px;
@@ -16,6 +17,7 @@
   height: 280px;
   background-size: cover;
 }
+
 .button-planes {
   background-image: linear-gradient(60deg, #f2be21 0%, #ff962a 100%);
   padding: 20px;
@@ -41,12 +43,97 @@
   justify-content: center;
 }
 .container-card-lugares {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; /* Crea tres columnas de igual ancho */
-  grid-gap: 20px; /* Espacio entre las columnas */
-  grid-row-gap: 50px;
+  display: flex;
+  flex-wrap: wrap; /* Crea tres columnas de igual ancho */
   justify-content: center;
-  margin-top: 30px;
+  gap: 20px;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+@media (max-width: 1024px) {
+  .container-card-lugar {
+    width: 250px;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+  .photo-card-lugares {
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+  }
+  .title-card-lugar {
+    font-size: 30px;
+  }
+  .container-card-lugares {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-card-lugar {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 50px;
+  }
+  .photo-card-lugares {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+  }
+  .title-card-lugar {
+    font-size: 25px;
+  }
+  .container-card-lugares {
+    margin-bottom: 20px;
+  }
+  .button-planes {
+    background-image: linear-gradient(60deg, #f2be21 0%, #ff962a 100%);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .container-card-lugares {
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 430px) {
+  .container-card-lugar {
+    width: 150px;
+    height: 190px;
+    margin-bottom: 50px;
+  }
+  .photo-card-lugares {
+    width: 100%;
+    height: 110px;
+    background-size: cover;
+  }
+  .title-card-lugar {
+    font-size: 20px;
+  }
+  .container-card-lugares {
+    margin-bottom: 20px;
+  }
+  .button-planes {
+    background-image: linear-gradient(60deg, #f2be21 0%, #ff962a 100%);
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .container-card-lugares {
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
 }

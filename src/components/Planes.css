@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2? family= Carme & display=swap");
 .container-card-elementos {
   display: flex;
+  flex-wrap: wrap;
   gap: 2px;
   text-align: center;
   padding: 10px;
@@ -126,9 +127,9 @@
   margin-left: 250px;
   box-shadow: 0px 20px 20px -8px rgba(0.2, 0, 0, 0.5);
   position: absolute;
-    bottom: -30px;
-    margin: auto;
-    left: calc(50% - 77px);
+  bottom: -30px;
+  margin: auto;
+  left: calc(50% - 77px);
 }
 .button-cotizar:hover {
 }
@@ -136,4 +137,98 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+}
+
+@media (max-width: 1024px) {
+  .container-card-dos {
+    margin-top: 10px;
+    padding-left: 6px;
+    margin-bottom: -70px;
+    width: 280px;
+  }
+  .button-cotizar {
+    font-size: 25px;
+    margin-left: 25px;
+  }
+  .container-card-elementos {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .title-card-planes {
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .text-salidas-planes {
+    font-size: 25px;
+  }
+  .text-tarifa-planes {
+    font-size: 25px;
+  }
+  .text-tarifa-contenido {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-card-elementos {
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .title-card-planes {
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .text-salidas-planes {
+    font-size: 25px;
+  }
+  .text-tarifa-planes {
+    font-size: 25px;
+  }
+  .text-tarifa-contenido {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 430px) {
+  .container-card-elementos {
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .title-card-planes {
+    font-size: 25px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .text-salidas-planes {
+    font-size: 20px;
+  }
+  .text-conocer {
+    font-size: 20px;
+  }
+  .text-tarifa-planes {
+    font-size: 20px;
+  }
+  .text-tarifa-contenido {
+    font-size: 25px;
+  }
+  .container-cards-cartagena {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+  }
+  .container-card-planes {
+    margin-top: 40px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 20px 20px 20px -5px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    padding: 30px;
+    height: 400px;
+    width: 300px;
+  }
 }

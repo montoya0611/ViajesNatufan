@@ -2,12 +2,12 @@
 .text-photo {
   color: #ffffff;
   font-family: Carter One;
-  font-size: 50px;
+  font-size: 80px;
   font-style: normal;
-  width: 570px;
+  width: 900px;
   text-align: center;
-  margin-top: -220px;
-  margin-left: 430px;
+  margin-top: -260px;
+  margin-left: 290px;
   position: absolute;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -35,7 +35,6 @@
   line-height: normal;
 }
 .linea-top {
-  width: 600px;
   margin: 0;
   padding: 4px;
   background: orange;
@@ -43,7 +42,6 @@
   margin-top: 90px;
 }
 .linea-bottom {
-  width: 850px;
   padding: 4px;
   background: #f28705;
   border: 0;
@@ -56,4 +54,46 @@
   margin-top: 60px;
   padding-bottom: 40px;
   padding-top: 1px;
+}
+
+@media (max-width: 1024px) {
+  .text-photo {
+    margin-top: -220px;
+    margin-left: 50px;
+    font-size: 60px;
+  }
+
+  .subtitle-travel {
+    font-size: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .text-photo {
+    margin-top: -180px;
+    margin-left: -90px;
+    font-size: 35px;
+  }
+
+  .subtitle-travel {
+    font-size: 20px;
+  }
+  .title-travel {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 425px) {
+  .text-photo {
+    margin-top: -160px;
+    margin-left: -2px;
+    font-size: 15px;
+    width: 200px;
+  }
+
+  .subtitle-travel {
+    font-size: 15px;
+  }
+  .title-travel {
+    font-size: 30px;
+  }
 }

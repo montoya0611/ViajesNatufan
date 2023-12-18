@@ -1,48 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
 /* tarjetas Incio */
 .container-card {
-    width: 420px;
-    height: 420px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background-size: cover;
-    background-Image:url("https://images.ctfassets.net/cfexf643femz/7ffmw1z22uDIYLvOwPWKvc/d7cdd973106b745b58904dd19a36d687/razones-invertir-cartagena-colombia.jpg")
-  }
-
-  .product-info-documentos {
-    color: rgba(255, 255, 255, 0.81);
-    text-align: center;
-    font-family: "Carter One";
-    font-size: 20px; 
-    margin-top: -30px;
-  }
-  .titulo-card-documentos {
-    justify-content: center;
-    color: #fff;
-    text-align: center;
-    font-family: "Carter One";
-    font-size: 60px;
-  }
-
-.container-documentos-contenido{
-background-color: rgba(0, 0, 0, 0.323);
-text-align: center;
-margin-top: 180px;
-width: 100%;
-height: 31%;
-border-top-left-radius: 8rem;
-border-top-right-radius: 8rem;
-padding-top: 20px;
-padding-bottom: 90px;
+  width: 420px;
+  height: 420px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: url("https://images.ctfassets.net/cfexf643femz/7ffmw1z22uDIYLvOwPWKvc/d7cdd973106b745b58904dd19a36d687/razones-invertir-cartagena-colombia.jpg");
 }
-.container-documentos-contenido:hover{
+
+.product-info-documentos {
+  color: rgba(255, 255, 255, 0.81);
+  text-align: center;
+  font-family: "Carter One";
+  font-size: 20px;
+  margin-top: -30px;
+}
+.titulo-card-documentos {
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-family: "Carter One";
+  font-size: 60px;
+}
+
+.container-documentos-contenido {
+  background-color: rgba(0, 0, 0, 0.323);
+  text-align: center;
+  margin-top: 180px;
+  width: 100%;
+  height: 31%;
+  border-top-left-radius: 8rem;
+  border-top-right-radius: 8rem;
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+.container-documentos-contenido:hover {
   background-color: rgba(0, 0, 0, 0.805);
   border: #fff;
 }
 
-  .container-card-start {
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+.container-card-start {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media (max-width: 1024px) {
+  .container-card {
+    width: 280px;
+    height: 320px;
   }
+  .container-documentos-contenido {
+    background-color: rgba(0, 0, 0, 0.323);
+    text-align: center;
+    margin-top: 110px;
+  }
+  .titulo-card-documentos {
+    font-size: 50px;
+    margin-top: 55px;
+  }
+}
