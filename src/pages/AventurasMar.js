@@ -8,14 +8,15 @@ import VideoAventurasMar from "../imagenes/aventurasmar.gif";
 export default function Travel() {
   return (
     <div className="container-travel">
-      <img
-        className="video-aventurasmar"
-        src={VideoAventurasMar}
-        alt="fotoinicio"
-      />
-      <h5 className="text-photo">Bienvenidos aventuras al lado del mar</h5>
+      <div className="travel-tittle">
+        <img
+          className="video-aventurasmar"
+          src={VideoAventurasMar}
+          alt="fotoinicio"
+        />
+        <h5 className="text-photo">Bienvenidos aventuras al lado del mar</h5>
+      </div>
 
-      <hr className="linea-top" />
       <h3 className="title-travel">DESTINOS PLAYAS</h3>
       <hr className="linea-bottom" />
       <h4 className="subtitle-travel">

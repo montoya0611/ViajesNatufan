@@ -15,7 +15,7 @@ function Footer() {
       <div className="container-footer">
         <div className="container-photo">
           <h3 className="tittle-footer">POR QUE VIAJAR CON NOSOTROS</h3>
-          <h4 className="subtittle-footer">Tus sueños te hace realidad</h4>
+          <h4 className="subtittle-footer">Tus sueños se hace realidad</h4>
           <div className="container-contenido">
             <div className="container-uno">
               <img className="icono-uno" src={avion} alt="fotoinicio" />
@@ -40,38 +40,39 @@ function Footer() {
           </div>
         </div>
         <div className="footer">
-          <ul className="parte-uno">
-            <h5 className="tittle-uno">Hablar con nosotros</h5>
-
-            <div className="contenido-footer">
-              <li>302 343 1557</li>
-              <li>444 65 22</li>
-              <li>Info@viajesnatufan.com</li>
-            </div>
-          </ul>
-          <ul className="parte-dos">
-            <h5 className="tittle-uno">¿Quienes Somos?</h5>
-            <div className="contenido-footer">
-              <li>Mision</li>
-              <li>Vision</li>
-              <li>terminos y condiciones</li>
-            </div>
-          </ul>
-          <ul className="parte-tres">
-            <h5 className="tittle-uno">Conocer más</h5>
-            <div className="contenido-footer">
-              <li>Aventuras en la playa</li>
-              <li>Lugares Inolvidables</li>
-              <li>Excursiones Natufan</li>
-            </div>
-          </ul>
-          <ul className="parte-cuatro">
-            <h5 className="tittle-uno">Donde estamos ubicados</h5>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.15121257097!2d-75.57175819999999!3d6.243794200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429e664eedecd%3A0x5546869939d516ac!2sViajes%20Natufan!5e0!3m2!1ses-419!2sco!4v1698944780246!5m2!1ses-419!2sco"
-              className="mapa"
-            ></iframe>
-          </ul>
+          <div className="footer-content">
+            <ul className="parte-uno">
+              <h5 className="tittle-uno">Hablar con nosotros</h5>
+              <div className="contenido-footer">
+                <li>302 343 1557</li>
+                <li>444 65 22</li>
+                <li>Info@viajesnatufan.com</li>
+              </div>
+            </ul>
+            <ul className="parte-dos">
+              <h5 className="tittle-uno">¿Quienes Somos?</h5>
+              <div className="contenido-footer">
+                <li>Mision</li>
+                <li>Vision</li>
+                <li>terminos y condiciones</li>
+              </div>
+            </ul>
+            <ul className="parte-tres">
+              <h5 className="tittle-uno">Conocer más</h5>
+              <div className="contenido-footer">
+                <li>Aventuras en la playa</li>
+                <li>Lugares Inolvidables</li>
+                <li>Excursiones Natufan</li>
+              </div>
+            </ul>
+            <ul className="parte-cuatro">
+              <h5 className="tittle-uno">Donde estamos ubicados</h5>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.15121257097!2d-75.57175819999999!3d6.243794200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429e664eedecd%3A0x5546869939d516ac!2sViajes%20Natufan!5e0!3m2!1ses-419!2sco!4v1698944780246!5m2!1ses-419!2sco"
+                className="mapa"
+              ></iframe>
+            </ul>
+          </div>
         </div>
       </div>
 

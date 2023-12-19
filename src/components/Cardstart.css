@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+
+a {
+  text-decoration: none;
+}
+
 .container-card-inicio {
   flex-wrap: wrap;
   width: 420px;
